@@ -60,13 +60,13 @@ header{
     margin: auto;
 }
 
-label{
+.label-title{
     font-weight: 600;
     font-size: larger;
     margin: 0 0 2vh 0;
 }
 
-input{
+.input-fields{
     height: 4vh;
     width: 15vw;
     margin: 0 0 2vh 0;
@@ -99,4 +99,40 @@ input{
     display: none;
     font-size: 2rem;
     margin: 1.5rem auto;
+}
+
+p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0 auto 1rem auto;
+}
+
+.radio-labels{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+}
+
+.radio-inputs{
+    margin: 0 0.5rem;
+}
+
+#submit-btn{
+    height: auto;
+    width: fit-content;
+
+    margin: 4vh auto 0 auto;
+    padding: 0.7rem;
+
+    font-weight: 600;
+    font-size: medium;
+    border: 3px solid var(--purple);
+}
+
+#submit-btn:hover{
+    transition: all 100ms;
+    transform: scale(1.2);
+    background-color: var(--purple);
+    color: var(--white);
+    border: 3px solid black;
 }
